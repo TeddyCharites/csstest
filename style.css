@@ -1,0 +1,84 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #1d4ed8;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #1e40af;
+}
+
+/* 1. Danh sách dấu vuông */
+.square-list {
+    list-style-type: square;
+}
+
+/* 2. Danh sách số La Mã */
+.roman-list {
+    list-style-type: upper-roman;
+}
+
+/* 3. Dùng hình ảnh làm dấu đánh dấu */
+.image-list {
+    list-style-image: url("bullet.svg");
+}
+
+/* 4. Vị trí dấu đánh dấu */
+.outside-list {
+    list-style-position: outside;
+    width: 220px;
+    background-color: #dbeafe;
+    padding: 15px 15px 15px 35px;
+}
+
+.inside-list {
+    list-style-position: inside;
+    width: 220px;
+    background-color: #dbeafe;
+    padding: 15px;
+}
+
+/* 5. Sử dụng thuộc tính rút gọn */
+.short-list {
+    list-style: square inside url("bullet.svg");
+}
+
+/* 6. Danh sách có màu sắc */
+.color-list {
+    list-style-type: circle;
+    background-color: #d1fae5;
+    color: #065f46;
+    padding: 20px 20px 20px 40px;
+}
+
+.color-list li {
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* 7. Bài tập tổng hợp */
+.roadmap-list {
+    list-style: square inside;
+    background-color: #dbeafe;
+    color: #1e3a8a;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.roadmap-list li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 12px;
+    border-left: 4px solid #2563eb;
+    border-radius: 4px;
+}
